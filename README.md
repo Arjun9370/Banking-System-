@@ -45,7 +45,7 @@ CREATE DATABASE bankdb;
 USE bankdb;
 
 CREATE TABLE account (
-    accNo INT PRIMARY KEY,
+    accNo INT(12) PRIMARY KEY,
     name VARCHAR(50),
     balance DOUBLE
 );
